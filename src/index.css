@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --bg-primary: 255 255 255;
+    --bg-secondary: 249 250 251;
+    --text-primary: 17 24 39;
+    --text-secondary: 107 114 128;
+    --accent: 79 70 229; /* Indigo-600 */
+    --accent-glow: 0 0 0; /* No glow in minimal */
+    --border: 229 231 235;
+    --glass-opacity: 1;
+    --glass-blur: 0px;
+  }
+
+  [data-theme='glass'] {
+    --bg-primary: 15 23 42; /* Slate-900 */
+    --bg-secondary: 30 41 59;
+    --text-primary: 248 250 252;
+    --text-secondary: 148 163 184;
+    --accent: 56 189 248; /* Sky-400 */
+    --accent-glow: 0 0 20px rgba(56, 189, 248, 0.5);
+    --border: 255 255 255; /* Opacity ile ayarlanacak */
+    --glass-opacity: 0.7;
+    --glass-blur: 12px;
+  }
+}
+
+body {
+  @apply bg-[rgb(var(--bg-primary))] text-[rgb(var(--text-primary))] transition-colors duration-300;
+}
