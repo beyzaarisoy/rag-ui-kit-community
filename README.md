@@ -1,29 +1,56 @@
-# ⚛️ React RAG UI Kit (Sponsor-ware)
+# ⚛️ React RAG UI Kit
 
-A high-performance, minimalist, and "Glassmorphism" supported React component set designed specifically for AI-powered chat applications.
+<div align="center">
+  <p>A modern, highly customizable, and animated chat interface designed specifically for AI, LLM, and RAG (Retrieval-Augmented Generation) applications.</p>
+  
+  [![Live Demo](https://img.shields.io/badge/Live_Demo-View_Pro_Version-blue?style=for-the-badge)](https://rag-ui-kit-pro.vercel.app/)
+  [![Get Pro](https://img.shields.io/badge/Get_Pro-Gumroad-ff0050?style=for-the-badge)](https://beyzatarh.gumroad.com/l/rag-ui-kit-pro)
+</div>
 
-![RAG UI Kit Demo](https://via.placeholder.com/1200x600?text=RAG+UI+Kit+Demo+Preview)
+---
 
-## ✨ Features
+## 💎 Pro Edition (Sponsor-ware)
 
-This kit follows a **Sponsor-ware** architecture with two tiers: **Community** and **Pro**.
+Looking for the ultimate premium experience? The Community Edition is great for basic needs, but the **Pro Edition** takes your application to the next level with advanced features and highly polished UI components.
 
-### 🆓 Community Edition (Core)
-- **Streaming Chat UI:** Real-time typewriter effect similar to ChatGPT.
-- **Theme Engine:** One-line toggle for Minimalist (Light) and Dark modes.
-- **Markdown Support:** Full support for code blocks, lists, and rich text.
-- **Responsive:** Mobile-first design.
+**Unlock Premium Features:**
+* 🪟 **Glassmorphism Theme Engine:** Stunning blur and neon background effects.
+* 📄 **Interactive Source Viewer:** A sleek slide-over panel to view PDF citations and context.
+* ☁️ **Animated File Dropzone:** Drag & drop interface with file upload progress bars.
+* 🗂️ **Advanced Sidebar:** Manage uploaded documents with hover-to-delete animations.
+* 🎨 **Syntax Highlighting:** Beautiful code blocks with one-click copy.
 
-### 💎 Sponsor Edition (Pro)
-- **🔮 Glassmorphism Mode:** Premium background blur and neon glow effects.
-- **📂 File Dropzone:** Animated file upload interface with progress indicators.
-- **📑 Interactive Source Viewer:** A slide-over panel that opens when clicking citation references `[1]`.
-- **🎨 Syntax Highlighting:** VS Code-style coloring and copy functionality for code blocks.
+👉 **[Get the Pro Edition on Gumroad ($29)](https://beyzatarh.gumroad.com/l/rag-ui-kit-pro)**
 
-## 🚀 Installation
+---
 
-This is a "Copy-Paste" library. You can copy the components directly into your project and customize them.
+## 🚀 Community Edition Features
+
+* 💬 Smooth typewriter streaming effect for AI responses.
+* 🌍 i18n Ready (English & Turkish built-in).
+* 🌗 Light and Dark mode support.
+* 🎨 Built with Tailwind CSS and Lucide React icons.
+* ⚡ Auto-scrolling chat behavior.
+
+## 📦 Quick Start (Community Edition)
+
+Clone the repository and run it locally:
 
 ```bash
-# Required dependencies
-npm install framer-motion lucide-react react-markdown rehype-highlight clsx tailwind-merge
+git clone [https://github.com/beyzaarisoy/rag-ui-kit-community.git](https://github.com/beyzaarisoy/rag-ui-kit-community.git)
+cd rag-ui-kit-community
+npm install
+npm run dev
+
+## 🛠️ Tech Stack
+* React 18 & Vite
+* Tailwind CSS
+* TypeScript
+* Lucide React (Icons)
+* Framer Motion (Animations)
+
+## 🙋‍♀️ Author
+Crafted with ❤️ by [Beyza Arısoy](https://github.com/beyzaarisoy). 
+
+## 📄 License
+This project is licensed under the MIT License - see the LICENSE file for details. *(Note: The Pro Edition components are proprietary).*
